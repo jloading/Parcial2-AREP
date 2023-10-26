@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>parcial</title>
+</head>
+<body>
+<input id="number">
+<button onclick="consult()">get</button>
+<p id="result">result</p>
+<script>
+    const consult = () =>{
+        const number = document.getElementById("number").value;
+        const url = "/lucasSeq" + "?number=" + number;
+        fetch(url).
+            then(response => response.text()).
+            then(data =>{
+                document.getElementById("result").innerHTML = data;
+            }
+        )
+    }
+</script>
+</body>
+</html>
