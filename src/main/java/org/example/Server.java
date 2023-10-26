@@ -10,7 +10,7 @@ public class Server {
 
     private static int currentIndex = -1;
 
-    private static String[] urls = {"http://localhost:4568/lucasSeq?number=", "http://localhost:4569/lucasSeq?number="};
+    private static String[] urls = {"http://ec2-54-198-37-248.compute-1.amazonaws.com:4568/lucasSeq?number=", "http://ec2-54-198-37-248.compute-1.amazonaws.com:4569/lucasSeq?number="};
 
     public static void main(String... args) {
         port(getPort());
