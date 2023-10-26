@@ -1,6 +1,6 @@
 # PARCIAL 2
 
-### Demo del parcial: https://youtu.be/3h5ViI-fu4k
+### Demo del parcial: https://youtu.be/1cvS0w7AhqA
 
 1. Clonar el repositorio
 ```
